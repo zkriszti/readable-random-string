@@ -1,0 +1,89 @@
+html, body {height: 100vh;}
+
+body {  
+  background: rgb(239,129,199); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(239,129,199,1) 0%, rgba(119,198,221,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(239,129,199,1) 0%,rgba(119,198,221,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(239,129,199,1) 0%,rgba(119,198,221,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-repeat: no-repeat;
+  background-position: center center;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+#panel {
+  width: 90%;
+  max-width: 580px;
+  margin: auto; 
+  font-family: 'Varela Round', sans-serif; 
+  font-size: 1.5em; 
+  display: flex; 
+  flex-direction: column;
+}
+
+#instruction {
+  border-left: 4px solid #fff; 
+  padding-left: 1rem;
+  align-self: center;
+}
+.sub, #instruction p, #error {
+  font-size: 0.9rem;
+  letter-spacing: 0.7px; 
+  color: #fff;
+}
+
+.sub {font-style: oblique;}
+
+#yourrandom {
+  margin-top: 1rem; 
+  text-transform: uppercase;
+  text-align: center; 
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.3rem; 
+  text-align: center; 
+  text-transform: uppercase;
+}
+
+#user-input {
+  text-align: center; 
+  margin: 1rem 0 3rem 0;
+}
+
+#user-input button {cursor: pointer;}
+
+button, input[type=number] {
+  text-transform: uppercase; 
+  font-weight: bold; 
+  background: #efefef; 
+  border: none; 
+  padding: 0.3rem 1rem; 
+  border-radius: 5px; 
+  -webkit-box-shadow: 10px 10px 8px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 7px 8px -3px rgba(0,0,0,0.75);
+  box-shadow: 7px 7px 10px -2px rgba(0,0,0,0.75);
+}
+
+input[type=number] {
+  padding-right: 0; 
+  width: 60px; 
+  margin-right: 1.5rem;
+}
+
+#output {
+  margin-top: 2rem; 
+  margin-bottom: 2rem;
+  background: rgba(120,120,120,0.6); 
+  padding: 0.3rem 1rem; 
+  font-weight: bold; 
+  align-self: center;
+}
+
+#error {text-align: center; display: none;}
+@media only screen and (min-width: 768px) {
+  h2 {font-size: 2.4rem}
+  #instruction {}
+  #instruction p {font-size: 1.5rem; text-align: center; }
+}

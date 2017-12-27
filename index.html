@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+  <head>
+    <link rel="canonical" href="https://codepen.io/zkriszti/pen/NdGqXN">
+    <link href="rstring-styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id='panel'> 
+      <h2>Readable RandomString Generator</h2>  
+      <div id='instruction'>
+        <p>How long should your string be?</p>
+        <p class='sub'>Please specify an integer (whole number) between 3 and 14.</p>
+      </div> 
+      <div id='user-input'>
+        <input type="number" id="length" value="7" min="3" max="14">
+        <button onclick="generate()">Generate!</button>
+      </div>
+      <div id='error'>Input not valid. Please specify a whole number ranging from 3 to 14.</div>
+      <div id='yourrandom'>Your random string is:</div>
+      <div id='output'></div>
+    </div> 
+    <footer><script src="randomstring.js"></script></footer>
+  </body>
+</html>
+
