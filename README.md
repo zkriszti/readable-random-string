@@ -13,7 +13,7 @@ Again a small "just for fun & practice" project. It generates easily memorizeabl
 ## Built with
 
   - vanilla JavaScript
-  - HTML5 + CSS3 (and a little Flexbox)
+  - HTML5 + CSS3 
   - no external libraries used
 
 ## Live version
